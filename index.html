@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetic Bio Link</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('https://www.throwup.it/wp-content-throwup/uploads/2020/08/stokemaki-08-graffiti-artist-throwup-magazine-1366x692.jpg') no-repeat center center fixed;
+            background-size: cover;
+            backdrop-filter: blur(10px);
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 20px;
+            padding: 30px 20px 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            width: 320px;
+            position: relative;
+        }
+        .title {
+            font-family: 'Press Start 2P', cursive;
+            color: #fff;
+            margin-bottom: 10px;
+            font-size: 28px;
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+        }
+        .pfp {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 5px solid rgba(255, 255, 255, 0.6);
+            position: absolute;
+            top: -70px; /* Adjusts PFP position to add space */
+            left: 50%;
+            transform: translateX(-50%);
+            background-image: url('https://streetart-halle.de/wordpress/wp-content/uploads/2015/04/13-FWL-STO_MG_6016.jpg');
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .info {
+            color: #fff;
+            margin: 15px 0;
+            font-size: 18px;
+            line-height: 1.4;
+            opacity: 0; /* Start hidden */
+            animation: fadeIn 2s forwards; /* Fade-in animation */
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0; /* Start invisible */
+            }
+            to {
+                opacity: 1; /* Fade to visible */
+            }
+        }
+        .button {
+            display: block; /* Stack buttons vertically */
+            margin: 10px auto; /* Center buttons */
+            padding: 5px 10px; /* Smaller button size */
+            background-color: #808080; /* Gray button color */
+            color: #fff;
+            text-decoration: none;
+            font-family: 'Press Start 2P', cursive; /* Pixel font */
+            font-weight: bold;
+            font-size: 14px; /* Smaller text size */
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
+            cursor: pointer;
+            width: 80%; /* Set button width */
+        }
+        .button:hover {
+            background-color: #1e90ff; /* Blue on hover */
+            transform: scale(1.05); /* Slightly enlarge on hover */
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="pfp"></div>
+        <h1 class="title">SSTTOO</h1>
+        <div class="info" id="info">meh graffiti artist 2 years of python experience nd javascript w a little html !!</div>
+        <!-- Updated Spotify Embed -->
+        <iframe src="https://open.spotify.com/embed/track/3Y9jinsRjHiNNBUpL9s5fS" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <a href="https://tiktok.com/@ltcflip" class="button">TikTok</a>
+        <a href="https://instagram.com/doukboi" class="button">Link 2</a>
+        <a href="https://ethfavcoin.xyz" class="button">SSTTOO</a>
+    </div>
+</body>
+</html>
